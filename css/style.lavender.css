@@ -1,0 +1,68 @@
+body {
+	/*background-color: #11345A; */ /* dark blue */
+	background-image:url('../img/techtower.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	padding-top: 70px;
+}
+
+.make-serif {
+	font-family: 'Times New Roman', serif;
+}
+
+#lavender_nav {
+	background-color: #FFF;
+	border-top: 5px solid #CFB53B;
+	padding: 10px inherit;
+}
+
+.lav-container {
+	
+	padding-top: 50px;
+	text-align: center;
+	background: none;
+}
+
+
+.menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.menu li a {
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+.lav-content {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.section {
+	margin: 0 75px 40px;
+	padding-bottom: 40px;
+}
+
+.section p {
+	margin-top: 40px;
+}
+
+.section span {
+	color: #8BAAAB;
+}
+
+.lav-foot {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
