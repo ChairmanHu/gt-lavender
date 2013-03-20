@@ -13,9 +13,22 @@ body {
 #lavender_nav {
 	background-color: #FFF;
 	border-top: 5px solid #CFB53B;
-	min-height: 45px;
+	min-height: 35px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.navbar .nav,
+.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+.center {
+    text-align:center;
 }
 
 .lav-container {
@@ -23,20 +36,20 @@ body {
 	background-color: rgba(255,255,255,0.2);
 	border-radius: 5px;
 	max-width: 600px;
-	margin: 90px auto 20px;
+	margin: 80px auto 20px;
 	padding: 50px 20px;
 	text-align: center;
 	text-shadow: 0 -1px 0 #666;
 }
 
-.menu li {
+.lavender-menu li {
 	padding-left: 5px;
 	padding-right: 5px;
 	font-size: 14px;
 	line-height: 14px;
 }
 
-.menu li a {
+.lavender-menu li a {
 	border-radius: 10px;
 	padding: 5px 10px;
 }
