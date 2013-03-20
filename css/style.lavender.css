@@ -13,7 +13,8 @@ body {
 #lavender_nav {
 	background-color: #FFF;
 	border-top: 5px solid #CFB53B;
-	padding: 10px inherit;
+	height: 55px;
+	padding-top: 10px;
 }
 
 .lav-container {
