@@ -32,12 +32,12 @@ body {
 }
 
 .lav-container {
-	color: #FFF;
-	background-color: rgba(255,255,255,0.2);
+	color: #DDD;
+	background-color: rgba(255,255,255,0.1);
 	border-radius: 5px;
 	max-width: 600px;
 	margin: 80px auto 20px;
-	padding: 50px 20px;
+	padding: 30px 20px;
 	text-align: center;
 	text-shadow: 0 -1px 0 #666;
 }
@@ -55,21 +55,30 @@ body {
 }
 
 .lav-content {
-	margin-top: 50px;
-	width: 100%;
+	margin-top: 30px;
+}
+.tab-content {
+	overflow: visible;
 }
 
 .section {
-	margin: 0 75px 40px;
-	padding-bottom: 40px;
+	color: #666;
+	background-image:url('../img/lightpaperfibers.png');
+	border-radius: 3px;
+	padding: 20px;
+	text-shadow: none;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
 }
 
 .section p {
-	margin-top: 40px;
+	margin-bottom: 30px;
 }
 
-.section span {
-	color: #8BAAAB;
+.section-img {
+	border-radius: 3px;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .lav-foot {
